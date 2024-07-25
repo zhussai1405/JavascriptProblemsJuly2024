@@ -1,0 +1,55 @@
+<mxfile host="65bd71144e">
+    <diagram id="RAv5X_MGm0KNFzqW1k7L" name="Page-1">
+        <mxGraphModel dx="986" dy="442" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="&lt;b&gt;The following only applies to primitive datatypes (Boolean, Strings, and Numbers) and does not apply to objects or arrays.&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;let fooVariable;&lt;/b&gt; //this is undefined in memory and the variable has not been initialized.&lt;br&gt;&lt;br&gt;&lt;b&gt;fooVariable = &quot;string stored&quot; &lt;/b&gt;//the variable has been initialed and stored in memory.&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;font color=&quot;#cc0000&quot;&gt;//assigning fooVariable to barVariable&lt;/font&gt;&lt;br&gt;&lt;b&gt;let barVariable &lt;font color=&quot;#cc0000&quot;&gt;=&lt;/font&gt; fooVariable;&lt;/b&gt;//barVariable has been created and initialized with fooVariables contents.&lt;br&gt;&lt;br&gt;//Both fooVariable and barVariable are stored in &lt;font color=&quot;#cc0000&quot;&gt;seperate&lt;/font&gt; memory locations.&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;If we assign a different value to fooVariable then barVariable will not change because they are in different locations in memory. NOTICE THAT THE ADDRESS STAYS THE SAME.&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;fooVariable = &quot;some other value&quot;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+                    <mxGeometry x="29" y="36" width="481" height="484" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="&lt;h1&gt;Computer RAM&lt;/h1&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="560" y="40" width="510" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="0x1 0x2 0x3 0x4 0x5 ......................." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="560" y="170" width="270" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="&lt;b&gt;string stored //fooVariable&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="560" y="150" width="240" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="0x1 0x2 0x3 0x4 0x5 ......................." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="560" y="110" width="270" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="&lt;b&gt;undefined&lt;br&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="560" y="90" width="240" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="&lt;b&gt;string stored //barVariable&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="560" y="220" width="220" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="0x21 0x22 0x23 0x24 0x25 ......" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="560" y="240" width="180" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="0x1 0x2 0x3 0x4 0x5 ......................." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="560" y="360" width="270" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="&lt;b&gt;some other value //fooVariable has changed but same address&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="560" y="340" width="380" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="&lt;b&gt;string stored //barVariable remains the same&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="560" y="410" width="350" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="0x21 0x22 0x23 0x24 0x25 ......" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="560" y="430" width="180" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="" style="shape=flexArrow;endArrow=classic;html=1;fontSize=12;fontColor=#CC0000;endWidth=19;endSize=6.26;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="320" y="410" as="sourcePoint"/>
+                        <mxPoint x="550" y="360" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="440" y="410"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
